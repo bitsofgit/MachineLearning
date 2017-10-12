@@ -1,0 +1,41 @@
+Machine Learning
+
+Definition: Building a model from example inputs to make data-driven predictions vs following strictly static program instructions.
+Algorithm analyzes the data and create a model.
+
+examples
+- Kinect - fed lots of pictures of people's postures to create a model. once the model reached sufficient accuracy, it was packaged into kinect and shipped. It was not learning anymore after that.
+- Movie choice app - shows top 100-200 movies on screen based on some baseline. As you select movies that you like to say green zone, it learns what you like and when you move movies to red zone, it learns what you dont like and suggests more movies. This is a type of system that is always learning.
+- determine hand written address
+- whether car loan should be approved
+- what will people buy
+
+Types of ML
+	Supervised - 
+		predict house prices - pass many rows of data for price, size, bedrooms, yr built etc to ML algorithm. ML algorithm then outputs a trained model.
+		For value predictions
+		Needs training data
+		trained model predicts for other values
+	Unsupervised - 
+		voice recording of room full of ppl - pass to unsupervised ML algo - it does classification and tells who said what 
+		identify clusters of like data - classification
+		Doesnt need training data
+		
+ML workflow
+	Asking the right question
+	Preparing data - Data cleaning and transformation
+	Selecting the algorithm
+	Training the model
+	Testing the model
+	Refine and Adjust above steps
+	
+Why Azure for ML - manages data, buils ml solution, deploy, control access, maintain solution
+Data columns that we use to train the model are called features. They can be of two types -
+	numerical for ex. length of car, wheel-base etc
+	categorical for ex. make of car, body-style etc
+	
+Algorithm
+	There are multiple algorithms supported in Azure ML. They can be found via searching for azure ml algorithm cheat sheet
+	Some are for finding unusual data points, patterns/structures - more in the unsupervised category
+	Some are for predicting values or categories - more in the supervised category.
+	
