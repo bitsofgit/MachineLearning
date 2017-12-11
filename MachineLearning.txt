@@ -37,5 +37,5 @@ Data columns that we use to train the model are called features. They can be of 
 Algorithm
 	There are multiple algorithms supported in Azure ML. They can be found via searching for azure ml algorithm cheat sheet
 	Some are for finding unusual data points, patterns/structures - more in the unsupervised category
-	Some are for predicting values or categories - more in the supervised category.
+	Some are for predicting values or categories - more in the supervised category. 
 	
